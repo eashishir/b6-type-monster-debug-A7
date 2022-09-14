@@ -196,9 +196,17 @@ button {
   .box-container {
     padding: 0 20px;
     width: 100%;
+
   }
 
   .card {
     flex-direction: column;
+
+
+  }
+
+  .card3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 }
