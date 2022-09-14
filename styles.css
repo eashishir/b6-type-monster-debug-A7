@@ -172,6 +172,11 @@ button {
   margin-bottom: 30px;
 }
 
+#result {
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
 #modal-background {
   background: rgb(255, 255, 255);
   background: linear-gradient(92.49deg,
@@ -185,6 +190,7 @@ button {
   padding: 5px;
 
 }
+
 
 @media only screen and (max-width: 700px) {
   .box-container {
