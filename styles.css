@@ -149,16 +149,20 @@ button {
 }
 
 #histories {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 
 .card {
   width: 100%;
   height: 100%;
   padding: 50px;
-  display: flex;
+  display: grid;
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
@@ -199,14 +203,21 @@ button {
 
   }
 
+  #histories {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 15px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
   .card {
     flex-direction: column;
 
 
   }
 
-  .card3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
+
 }
